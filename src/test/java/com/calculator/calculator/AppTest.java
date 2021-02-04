@@ -34,6 +34,6 @@ public class AppTest extends TestCase
 		a.a=5;
         a.b=10;
         assertEquals(15,a.add());
-        assertEquals(15,a.subtract());
+        assertEquals(-5,a.subtract());
 	}
 }
